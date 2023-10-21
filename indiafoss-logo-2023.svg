@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="428"
+   height="93"
+   viewBox="0 0 428 93"
+   fill="none"
+   version="1.1"
+   id="svg12197"
+   sodipodi:docname="indiafoss-logo-2023.svg"
+   inkscape:export-filename="/home/shkumar/projects/fossunited/indiafoss-logo.png"
+   inkscape:export-xdpi="300.38708"
+   inkscape:export-ydpi="300.38708"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12201" />
+  <sodipodi:namedview
+     id="namedview12199"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="2.1843101"
+     inkscape:cx="156.80008"
+     inkscape:cy="45.781045"
+     inkscape:window-width="1627"
+     inkscape:window-height="899"
+     inkscape:window-x="85"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Outline"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:32px;line-height:1.25;font-family:'FFF Forward';-inkscape-font-specification:'FFF Forward';fill:none"
+       x="180.09656"
+       y="142.89946"
+       id="text75753"><tspan
+         sodipodi:role="line"
+         id="tspan75751"
+         x="180.09656"
+         y="142.89946">2023</tspan></text>
+    <g
+       aria-label="2023"
+       transform="matrix(-1,0,0,1,-20,0)"
+       id="text85107"
+       style="font-size:37.3333px;line-height:1.25;font-family:'FFF Forward';-inkscape-font-specification:'FFF Forward'">
+      <path
+         d="m -370.51486,70.22652 h -23.59465 V 41.927877 h 13.99999 v -9.071992 h -13.99999 v -9.594659 h 23.59465 v 28.26131 h -13.99999 v 9.071992 h 13.99999 z"
+         style="fill:#000000"
+         id="path93487" />
+      <path
+         d="m -356.51495,60.594528 h 4.40533 V 32.855885 h -4.40533 z m -9.59465,9.631992 V 23.261226 h 23.59464 V 70.22652 Z"
+         style="fill:#000000"
+         id="path93489" />
+      <path
+         d="M -314.51505,70.22652 H -338.1097 V 41.927877 h 13.99999 v -9.071992 h -13.99999 v -9.594659 h 23.59465 v 28.26131 h -13.99999 v 9.071992 h 13.99999 z"
+         style="fill:#000000"
+         id="path93491" />
+      <path
+         d="m -310.1098,70.22652 v -9.631992 h 13.99999 v -9.071992 h -13.99999 v -9.594659 h 13.99999 v -9.071992 h -13.99999 v -9.594659 h 23.59465 V 70.22652 Z"
+         style="fill:#000000"
+         id="path93493" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Rect"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Text"
+     style="display:inline" />
+</svg>

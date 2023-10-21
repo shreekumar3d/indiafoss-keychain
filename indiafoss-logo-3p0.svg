@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="428"
+   height="93"
+   viewBox="0 0 428 93"
+   fill="none"
+   version="1.1"
+   id="svg12197"
+   sodipodi:docname="indiafoss-logo-3p0.svg"
+   inkscape:export-filename="/home/shkumar/projects/fossunited/indiafoss-logo.png"
+   inkscape:export-xdpi="300.38708"
+   inkscape:export-ydpi="300.38708"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12201" />
+  <sodipodi:namedview
+     id="namedview12199"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.28"
+     inkscape:cx="487.10938"
+     inkscape:cy="200.39063"
+     inkscape:window-width="1835"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Text"
+     style="display:inline">
+    <path
+       id="path70915"
+       style="display:inline;fill:#000000"
+       d="m 385.10938,22.544922 v 47.072266 h 29.30859 V 64.917969 22.544922 Z m 9.93554,9.607422 h 9.41016 v 27.804687 h -9.41016 z" />
+    <path
+       d="M 363.792,32.5044 V 69.6039 H 332.85 v -9.9733 h 20.628 v -9.19 h -15.255 v -9.9732 h 15.255 v -7.976 H 332.85 v -9.9733 h 30.942 v 9.9733 z"
+       id="path12195"
+       style="fill:#000000" />
+    <path
+       d="m 379.817,69.6039 h -10.719 v -9.9733 h 10.719 z"
+       id="path70913"
+       style="fill:#000000" />
+  </g>
+</svg>
