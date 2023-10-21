@@ -19,10 +19,16 @@ module logo_lettering() {
   }
 }
 
+// Step well architecture to make the hole on the bed
+// bigger, while keeping the top in alignment with the
+// "0" on the top of the logo
 module logo_hole() {
-  translate([0,0,-5])
-    linear_extrude(height=10)
-      import("indiafoss-logo-hole.svg", $fn = 100);
+  for(i=[0:0.1:5]) {
+    translate([0,0,-3.5-i])
+      linear_extrude(height=3.6)
+        offset(r=i*0.8)
+          import("indiafoss-logo-hole.svg", $fn = 100);
+  }
 }
 
 module logo_reverse_lettering() {
@@ -37,30 +43,34 @@ module logo_reverse_pattern() {
       color("green")
         cube([84,28,4]);
 
-    translate([-25,-3,0])
+    translate([-25,-4,0])
       color("red")
       for(i=[0:1:8]) {
         translate([i*14,0,-5]) {
           rotate(45,[0,0,1])
-            cube([60,3,2]);
+            cube([60,4.5,2]);
         }
         translate([i*14,40,-5]) {  
           rotate(-45,[0,0,1])
-            cube([60,3,2]);
+            cube([60,4.5,2]);
         }
       }
   }
 }
 
-scale([0.4,0.4,1])
-difference() {
-  union() {
-    logo_lettering();
+// Scale down X & Y, but make the logo
+// slighty clunkier
+scale([0.4,0.4,1.25])
+union() {
+  color("red")
+  logo_lettering();
+  difference() {
     translate([0,0,-2])
       logo_base();
+
+    logo_hole();
+    translate([0,0,-3])
+      logo_reverse_lettering();
+    logo_reverse_pattern();
   }
-  logo_hole();
-  translate([0,0,-3])
-    logo_reverse_lettering();
-  logo_reverse_pattern();
 }
