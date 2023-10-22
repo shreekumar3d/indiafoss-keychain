@@ -58,19 +58,57 @@ module logo_reverse_pattern() {
   }
 }
 
-// Scale down X & Y, but make the logo
-// slighty clunkier
-scale([0.4,0.4,1.25])
-union() {
-  color("red")
-  logo_lettering();
-  difference() {
-    translate([0,0,-2])
-      logo_base();
+module logo() {
+  // Scale down X & Y, but make the logo
+  // slighty clunkier
+  scale([0.4,0.4,1.25])
+  union() {
+    color("red")
+      logo_lettering();
+    difference() {
+      translate([0,0,-2])
+        logo_base();
 
-    logo_hole();
-    translate([0,0,-3])
-      logo_reverse_lettering();
-    logo_reverse_pattern();
+      logo_hole();
+      translate([0,0,-3])
+        logo_reverse_lettering();
+      logo_reverse_pattern();
+    }
   }
+}
+
+bevel=0.25;
+
+difference() {
+  logo();
+
+  color("red")
+    translate([-1,-0.882+bevel,-1.5])
+      rotate(90,[0,1,0])
+        linear_extrude(100)
+          polygon(points=[[0,0],[10,0],[10,10]]);
+
+  color("red")
+    translate([-1,12.2+0.922-bevel,-2.5])
+      rotate(90,[1,0,0])
+        rotate(90,[0,1,0])
+          linear_extrude(100)
+            polygon(points=[[0,0],[10,0],[10,10]]);
+
+  // side
+  color("red")
+    translate([0+bevel,-40,-2.5])
+      rotate(90,[0,0,1])
+        rotate(90,[1,0,0])
+          rotate(90,[0,1,0])
+            linear_extrude(100)
+              polygon(points=[[0,0],[10,0],[10,10]]);
+
+  color("red")
+    translate([60.335-bevel,40,-2.5])
+      rotate(270,[0,0,1])
+        rotate(90,[1,0,0])
+          rotate(90,[0,1,0])
+            linear_extrude(100)
+              polygon(points=[[0,0],[10,0],[10,10]]);
 }
